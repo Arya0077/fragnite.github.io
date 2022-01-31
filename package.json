@@ -1,0 +1,17 @@
+{
+  "name": "Fragnite Portfolio",
+  "version": "1.0.0",
+  "description": "Arya portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --browser=chrome"
+  },
+  "author": "Arya",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.6",
+    "node-sass": "^4.14.0"
+  },
+  "dependencies": {}
+}
