@@ -24,7 +24,7 @@ export default function Home({ blogs, profile }) {
       <Head>
         <meta charset="utf-8" />
 
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+        <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
 
         <meta
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -61,7 +61,7 @@ export default function Home({ blogs, profile }) {
         <meta name="twitter:site" content="@tailwindmade" />
 
         <link
-          crossorigin="crossorigin"
+          crossOrigin="crossOrigin"
           href="https://fonts.gstatic.com"
           rel="preconnect" />
 
@@ -79,7 +79,7 @@ export default function Home({ blogs, profile }) {
           rel="stylesheet" />
 
         <link
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
           href="/assets/styles/main.min.css"
           media="screen"
           rel="stylesheet" />
@@ -809,13 +809,13 @@ export default function Home({ blogs, profile }) {
         <form className="mx-auto w-full pt-10 sm:w-3/4" action="https://formspree.io/f/xoqrejvv" method="POST">
           <div className="flex flex-col md:flex-row">
             <input className="mr-3 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:w-1/2 lg:mr-5"
-              for="fname" name="fname" placeholder="Name" type="text" id="fname" />
+              htmlFor="fname" name="fname" placeholder="Name" type="text" id="fname" />
             <input
               className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-0 md:ml-3 md:w-1/2 lg:ml-5"
-              for="fcontact" name="fcontact" placeholder="Email" type="text" id="fcontact" />
+              htmlFor="fcontact" name="fcontact" placeholder="Email" type="text" id="fcontact" />
           </div>
           <textarea className="mt-6 w-full rounded border-grey-50 px-4 py-3 font-body text-black md:mt-8"
-            for="fpurpose" name="fpurpose" placeholder="Message" id="fpurpose" cols="30" rows="10"></textarea>
+            htmlFor="fpurpose" name="fpurpose" placeholder="Message" id="fpurpose" cols="30" rows="10"></textarea>
           <button
             className="mt-6 flex items-center justify-center rounded bg-primary px-8 py-3 font-header text-lg font-bold uppercase text-white hover:bg-grey-20">
             Send
@@ -871,7 +871,7 @@ export default function Home({ blogs, profile }) {
           </h3>
           <form className="mt-6 flex flex-col justify-center sm:flex-row" action="https://formspree.io/f/xoqrejvv" method="POST">
             <input className="w-full rounded px-4 py-3 font-body text-black sm:w-2/5 sm:py-4 lg:w-1/3" type="text"
-              for="email_for_club" name="email_for_club" id="email_for_club" placeholder="Give me your Email" />
+              name="email_for_club" id="email_for_club" placeholder="Give me your Email" />
             <button
               className="mt-2 rounded bg-yellow px-8 py-3 font-body text-base font-bold uppercase text-primary transition-colors hover:bg-primary hover:text-white focus:border-transparent focus:outline-none focus:ring focus:ring-yellow sm:ml-2 sm:mt-0 sm:py-4 md:text-lg">
               Join the club
