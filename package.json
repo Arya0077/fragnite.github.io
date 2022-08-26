@@ -1,25 +1,17 @@
 {
-  "name": "next-frontend",
-  "version": "0.1.0",
-  "private": true,
+  "name": "Fragnite Portfolio",
+  "version": "1.0.0",
+  "description": "Arya portfolio website",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server --browser=chrome"
   },
-  "dependencies": {
-    "next": "12.1.6",
-    "next-sanity": "^0.5.2",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "react-portable-text": "^0.4.3"
-  },
+  "author": "Arya",
+  "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.0.24"
-  }
+    "autoprefixer": "^7.2.6",
+    "node-sass": "^4.14.0"
+  },
+  "dependencies": {}
 }
